@@ -1,0 +1,98 @@
+name:                study-group-notes
+version:             0.1.0.0
+homepage:            https://github.com/txsmith/delft-haskell-study-group/tree/master/notes#readme
+license:             BSD3
+category:            Web
+build-type:          Simple
+extra-source-files:  README.md
+cabal-version:       >=1.10
+
+library
+  hs-source-dirs:      src
+  exposed-modules:
+                    Chapter1_2_3
+                    --  , Chapter4.Exercises
+                    --  , Chapter4.CorrectingSyntax
+                    --  , Chapter5.DetermineTheTypes
+                    --  , Chapter5.DoesItCompile
+                    --  , Chapter5.WriteTheSignature
+                    --  , Chapter5.WriteTheFunction
+                    --  , Chapter5.FixIt
+                    --  , Chapter5.TypeKwonDo
+                    --  , Chapter6.DoesItTypecheck
+                    --  , Chapter6.MatchTheTypes
+                    --  , Chapter6.TypeKwonDo
+                    --  , Chapter7.MultipleChoice
+                    --  , Chapter7.WriteSomeCode
+                    --  , Chapter8.ReviewOfTypes
+                    --  , Chapter8.ReviewOfCurrying
+                    --  , Chapter8.Recursion
+                    --  , Chapter8.FixDivideBy
+                    --  , Chapter8.McCarthy91
+                    --  , Chapter8.NumbersIntoWords
+                    --  , Chapter9.DataChar
+                    --  , Chapter9.Ciphers
+                    --  , Chapter9.StandardFunctions
+                    --  , Chapter10.WarmUp
+                    --  , Chapter10.RewriteWithFold
+                    --  , Chapter11.Ciphers
+                    --  , Chapter11.AsPatterns
+                    --  , Chapter11.Language
+                    --  , Chapter11.Phone
+                    --  , Chapter11.HuttonsRazor
+                    --  , Chapter12.StringProcessing
+                    --  , Chapter12.ValidateTheWord
+                    --  , Chapter12.ItsOnlyNatural
+                    --  , Chapter12.SmallLibraryForMaybe
+                    --  , Chapter12.SmallLibraryForEither
+                    --  , Chapter12.Unfold
+                    --  , Chapter12.BinaryTree
+                    --  , Chapter13.Ciphers
+                    --  , Chapter13.Palindrome
+                    --  , Chapter13.Person
+                    --  , Chapter14.WordNumber
+                    --  , Chapter15.Semigroup
+                    --  , Chapter15.Monoid
+                    --  , Chapter16.CanItBeFunctor
+                    --  , Chapter16.RearrangeTheArguments
+                    --  , Chapter16.Instances
+                    --  , Chapter17.SpecializeTheTypes
+                    --  , Chapter17.Instances
+                    --  , Chapter17.Combinations
+                    --  , Chapter18.Instances
+                    --  , Chapter18.Functions
+                    --  , Chapter20.Library
+                    --  , Chapter20.Instances
+                    --  , Chapter21.Instances
+                    --  , Chapter21.Tree
+                    --  , Chapter22.WarmUp
+                    --  , Chapter22.Shawty
+  build-depends:       base >= 4.7 && < 5
+                     , hspec
+                     , QuickCheck
+                     , checkers
+                     , bytestring
+                     , hedis
+                     , mtl
+                     , network-uri
+                     , random
+                     , scotty
+                     , semigroups
+                     , text
+                     , transformers
+  default-language:    Haskell2010
+
+-- test-suite tests
+--   ghc-options: -Wall -fno-warn-orphans
+--   type: exitcode-stdio-1.0
+--   main-is: tests.hs
+--   hs-source-dirs: tests
+--   other-modules: Chapter14.QuickCheck
+--                , Chapter14.WordNumberTest
+
+--   build-depends: base
+--                , study-group-notes
+--                , containers
+--                , hspec
+--                , QuickCheck
+--   default-language: Haskell2010
