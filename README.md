@@ -68,30 +68,24 @@ This is the schedule as planned. We might adjust the pace to keep things from be
 - Haskell Book, Chapter 1
 
 **Week 2. Getting started with Haskell.**
-- Chapters 2 and 3
+- Review chapters 2 and 3
 
 **Week 3. Basic datatypes and Types.**
-- Review chapters 2 and 3
-- Chapters 4 and 5
+- Review chapters 4 and 5
 
 **Week 4. Typeclasses.**
-- Review chapters 4 and 5
-- Chapter 6
+- Review chapter 6
 
 **Week 5. Functional patterns. Working with recursion.**
-- Review chapter 6
-- Chapters 7 and 8
+- Review chapters 7 and 8
 
 **Week 6. Lists and folding lists.**
-- Review chapters 7 and 8
-- Chapters 9 and 10
+- Review chapters 9 and 10
 
 **Week 7. Algebraic datatypes.**
-- Review chapters 9 and 10
-- Chapters 11 and 12
+- Review chapters 11 and 12
 
 **Week 8. Midpoint review. Testing with QuickCheck.**
-- Review chapters 2-12
 - Read and complete Chapter 13 on your own
 - Chapter 14
 
@@ -99,16 +93,13 @@ This is the schedule as planned. We might adjust the pace to keep things from be
 - Chapter 15
 
 **Week 10. Functor.**
-- Review Chapter 15
-- Chapter 16
+- Review chapter 16
 
 **Week 11. Applicative.**
-- Review chapter 16
-- Chapter 17
+- Review chapter 17
 
 **Week 12. Monad. How to apply structure to your code. Conclusion.**
-- Review chapter 17
-- Chapter 18
+- Review chapter 18
 - Read Chapter 19 on your own
 - General review and look ahead
 
